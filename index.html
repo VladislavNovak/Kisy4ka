@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(12, 1fr);
+      gap: 6px;
+    }
+
+    .div1 {
+      grid-row: span 12 / span 12;
+    }
+
+    .div2 {
+      grid-row: span 12 / span 12;
+      grid-column-start: 8;
+      grid-row-start: 1;
+    }
+
+    .div3 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+
+    .div4 {
+      grid-column: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 1;
+    }
+
+    .div5 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 2;
+    }
+
+    .div6 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 1;
+    }
+
+    .div7 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 3;
+    }
+
+    .div8 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 3;
+    }
+
+    .div9 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 4;
+    }
+
+    .div10 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 5;
+    }
+
+    .div11 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 5;
+    }
+
+    .div12 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 6;
+    }
+
+    .div13 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 7;
+    }
+
+    .div14 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 7;
+    }
+
+    .div15 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 8;
+    }
+
+    .div16 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 9;
+    }
+
+    .div17 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 4;
+      grid-row-start: 10;
+    }
+
+    .div18 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 6;
+      grid-row-start: 11;
+    }
+
+    .div19 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 9;
+    }
+
+    .div20 {
+      grid-column: span 2 / span 2;
+      grid-row: span 2 / span 2;
+      grid-column-start: 2;
+      grid-row-start: 11;
+    }
+
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <section class="portfolio">
+    <div class="portfolio-inner">
+      <div class="parent">
+        <div class="div1"></div>
+        <div class="div2"></div>
+  
+        <div class="div3">
+          <img src="./assets/0MI4m9xZBnc.jpg" alt="">
+        </div>
+        <!-- <figure class="div3">
+          <img src="./assets/0MI4m9xZBnc.jpg" alt="">
+          <figcaption>Первое изображение</figcaption>
+        </figure> -->
+  
+        <div class="div4"></div>
+  
+        <div class="div5">
+          <img src="./assets/6AP2CAjKT0w.jpg" alt="">
+        </div>
+        <div class="div6">
+          <img src="./assets/6l-dRmNKQ6Y.jpg" alt="">
+        </div>
+        <div class="div7">
+          <img src="./assets/8BHhR_RrTaQ.jpg" alt="">
+        </div>
+        <div class="div8">
+          <img src="./assets/8gODVg_900k.jpg" alt="">
+        </div>
+        <div class="div9">
+          <img src="./assets/8P54WgxwO1U.jpg" alt="">
+        </div>
+        <div class="div10">
+          <img src="./assets/8U6IA9AlQGM.jpg" alt="">
+        </div>
+        <div class="div11">
+          <img src="./assets/BtIY5VJlxJk.jpg" alt="">
+        </div>
+        <div class="div12">
+          <img src="./assets/c83U-n7KL10.jpg" alt="">
+        </div>
+        <div class="div13">
+          <img src="./assets/djgsjoYcfJ4.jpg" alt="">
+        </div>
+        <div class="div14">
+          <img src="./assets/FlP56jKJ77M.jpg" alt="">
+        </div>
+        <div class="div15">
+          <img src="./assets/HbHC92kp1OU.jpg" alt="">
+        </div>
+        <div class="div16">
+          <img src="./assets/IwYCbl25mAg.jpg" alt="">
+        </div>
+        <div class="div17">
+          <img src="./assets/OSP2kP8ccRo.jpg" alt="">
+        </div>
+        <div class="div18">
+          <img src="./assets/sKoR-zrQ9Rg.jpg" alt="">
+        </div>
+        <div class="div19">
+          <img src="./assets/T29FkIU5-bk.jpg" alt="">
+        </div>
+        <div class="div20">
+          <img src="./assets/TzanbU-vVIA.jpg" alt="">
+        </div>
+      </div>
+  </section>  
+</body>
+</html>
